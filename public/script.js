@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (event) {
 
-        event.preventDefault();
+      
+        // event.preventDefault();
 
         if (title.value.trim() === "") {
             alert("Please enter the blog title.");
@@ -20,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        alert("Blog submitted successfully!");
+        //alert("Blog submitted successfully!");
 
         form.reset();
 
