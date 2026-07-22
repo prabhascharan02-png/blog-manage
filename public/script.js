@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         //alert("Blog submitted successfully!");
 
-        form.reset();
+        //form.reset();
 
     });
 
