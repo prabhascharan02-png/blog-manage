@@ -23,11 +23,15 @@ app.post("/add-blog", (req, res) => {
         title,
         content
     });
+    
 
     res.json({
         message: "Blog added successfully!",
         blogs
     });
+});
+app.get("/blogs", (req, res) => {
+    res.json(blogs);
 });
 
 app.listen(PORT, () => {
